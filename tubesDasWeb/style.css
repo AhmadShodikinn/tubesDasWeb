@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montez&family=Montserrat&family=Rubik&display=swap');
+
+/* Index.php */
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #2E2924;
+}
+.title{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 33px;
+    color: #D7B483;
+    background-color: transparent;
+}
+
+li, a, btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #D7B483;
+    text-decoration: none;
+}
+
+header{
+    background-color: #1D1810;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav_links{
+    list-style: none;
+    background-color: #1D1810;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: #1D1810;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    background-color: #1D1810;
+}
+
+.nav_links li a:hover{
+    color: #ff9500;
+    background-color: #1D1810;
+}
+
+/* DROPDOWN */
+.dropdown .dropbtn {
+  font-size: 16px;
+  font-weight: 500;
+  color: #D7B483;
+  padding: 0px 0px;
+  background-color: #1D1810;
+  cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    color: #D7B483;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* BUTTON RESERVASI */
+.btnPesan{
+    padding: 9px 25px;
+    background-color: #D7B483;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.btn{
+    background-color: #1D1810;
+}
+
+.btnPesan:hover{ 
+    border-radius: 50px;
+    background-color: #ff9500;
+}
+
+/* Content */
+.main{
+    -ms-flex: 70%;
+    flex: 70%;
+    background-color: #2E2924;
+    padding:5% 10% 0% 10%;
+}
+
+.homepage{
+    padding-top: 8%;
+    padding-right: 50%;
+    font-size: 40px;
+    color: white;
+}
+.namatable{
+    text-align: center;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D7B483;
+    font-size: 29px;
+}
+table{
+    width: 100%;
+    border: 2px solid #D7B483;
+}
+th{
+    background-color: #2E2924;
+    border: 2px solid #D7B483;
+}
+
+tr , td{
+    text-align: center;
+    border: 1px solid #D7B483;
+    color: #D7B483;
+}
