@@ -50,8 +50,6 @@
         $result = $mysqli -> query($query);
         $num_results = $result->num_rows;
 
-        // echo"<div><a href='tambah.php'>Tambah Data Baru</a></div>";
-
         if($num_results>0){
             echo"<table>";
             echo"<tr>";

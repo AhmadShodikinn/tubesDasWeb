@@ -40,6 +40,41 @@
 
     <div class="main">      
     <h3 class="namatable">FORM TAMBAH PEMESANAN</h3><br>
+    <div class="containerForm">
+        <form>
+            <div>
+            <label for="comp">Nama Pegawai</label>
+            <select id="comp">
+
+                <option value="cash">CASH</option>
+                <option value="kartukredit">KARTU KREDIT</option>
+            </select>
+            </div>
+            <div>
+                <label for="name">Nama Pembeli</label>
+                <input id="name" name="nama_pembeli" type="text" />
+            </div>
+            <div>
+                <label for="name">jumlah porsi</label>
+                <input id="name" name="jumlah_porsi" type="text" />
+            </div>
+            <div>
+            <label for="comp">Metode Pembayaran</label>
+            <select id="comp">
+                <option value="cash">CASH</option>
+                <option value="kartukredit">KARTU KREDIT</option>
+            </select>
+            </div>
+            <div class="full-width">
+                <label for="message">Alamat Pembeli</label>
+                <textarea id="message" name="alamat_pembeli"></textarea>
+            </div>
+            <div class="full-width"><br>
+                <button class="cta" id="btn" type="submit">Send Response</button>
+                <button class="cta" id="btn" type="reset">Clear Form</button>
+            </div>
+        </form>
+        </div>
     </div>
 </body>
 </html>

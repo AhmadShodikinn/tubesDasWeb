@@ -35,7 +35,7 @@
                 <li><a href="./reservasi.php">reservasi</a></li>
             </ul>
         </nav>
-        <a href="#" class="btn"><button class="btnPesan">Pesan Sekarang</button></a>
+        <a href="./tambahReservasi.php" class="btn"><button class="btnPesan">Pesan Sekarang</button></a>
     </header>
 
     <div class="main">      
@@ -49,8 +49,6 @@
         $query = "SELECT * FROM menu";
         $result = $mysqli -> query($query);
         $num_results = $result->num_rows;
-
-        // echo"<div><a href='tambah.php'>Tambah Data Baru</a></div>";
 
         if($num_results>0){
             echo"<table>";
@@ -68,7 +66,7 @@
                     echo "<td>".$id_menu."</td>\n";
                     echo "<td>".$nama_menu."</td>\n";
                     echo "<td>".$jenis."</td>\n";
-                    echo "<td>".$harga."</td>\n";
+                    echo "<td>RP. ".$harga."</td>\n";
                     echo "<td>";
                         echo("<a href='edit.php?id={$id_menu}'>Edit</a>");
                         echo("/");
